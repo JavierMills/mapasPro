@@ -1,0 +1,23 @@
+.mapa-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.row {
+  background: linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  bottom: 50px;
+  left: 50px;
+  padding: 10px;
+  position: fixed;
+  z-index: 999;
+  width: 400px;
+}
+
+.btn {
+  border: none;
+  width: 80px;
+  background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+}

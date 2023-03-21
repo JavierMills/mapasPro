@@ -1,0 +1,25 @@
+.mapa-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.list-group {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 99;
+}
+
+li {
+  background:hsla(187, 82%, 65%, 1);
+  color: white;
+  cursor: pointer;
+}
+
+li:active{
+    background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: .6s;
+
+}
